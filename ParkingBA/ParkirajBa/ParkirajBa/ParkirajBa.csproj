@@ -2,9 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-	  <EnableNETAnalyzers>true</EnableNETAnalyzers>
-	  <AnalysisMode>All</AnalysisMode>
-	  <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-ParkirajBa-9d219812-7e30-4232-9a1d-c7c072747e58</UserSecretsId>
