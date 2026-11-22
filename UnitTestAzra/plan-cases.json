@@ -1,0 +1,112 @@
+[
+  {
+    "spol": "musko",
+    "cilj": "mrsanje",
+    "tezina": 70,
+    "visina": 175,
+    "godine": 22,
+    "kalorije": 1435,
+    "protein": 154,
+    "ugljikohidrati": 117,
+    "masti": 39
+  },
+  {
+    "spol": "zensko",
+    "cilj": "mrsanje",
+    "tezina": 60,
+    "visina": 165,
+    "godine": 25,
+    "kalorije": 1143,
+    "protein": 132,
+    "ugljikohidrati": 84,
+    "masti": 31
+  },
+  {
+    "spol": "musko",
+    "cilj": "masa",
+    "tezina": 85,
+    "visina": 185,
+    "godine": 30,
+    "kalorije": 2140,
+    "protein": 170,
+    "ugljikohidrati": 259,
+    "masti": 47
+  },
+  {
+    "spol": "zensko",
+    "cilj": "masa",
+    "tezina": 55,
+    "visina": 160,
+    "godine": 21,
+    "kalorije": 1476,
+    "protein": 110,
+    "ugljikohidrati": 187,
+    "masti": 32
+  },
+  {
+    "spol": "musko",
+    "cilj": "mrsanje",
+    "tezina": 95,
+    "visina": 190,
+    "godine": 35,
+    "kalorije": 1672,
+    "protein": 209,
+    "ugljikohidrati": 105,
+    "masti": 46
+  },
+  {
+    "spol": "zensko",
+    "cilj": "mrsanje",
+    "tezina": 72,
+    "visina": 170,
+    "godine": 28,
+    "kalorije": 1259,
+    "protein": 158,
+    "ugljikohidrati": 80,
+    "masti": 34
+  },
+  {
+    "spol": "musko",
+    "cilj": "masa",
+    "tezina": 65,
+    "visina": 172,
+    "godine": 19,
+    "kalorije": 1880,
+    "protein": 130,
+    "ugljikohidrati": 247,
+    "masti": 41
+  },
+  {
+    "spol": "zensko",
+    "cilj": "masa",
+    "tezina": 80,
+    "visina": 178,
+    "godine": 40,
+    "kalorije": 1784,
+    "protein": 160,
+    "ugljikohidrati": 198,
+    "masti": 39
+  },
+  {
+    "spol": "musko",
+    "cilj": "mrsanje",
+    "tezina": 50,
+    "visina": 160,
+    "godine": 18,
+    "kalorije": 1202,
+    "protein": 110,
+    "ugljikohidrati": 116,
+    "masti": 33
+  },
+  {
+    "spol": "zensko",
+    "cilj": "masa",
+    "tezina": 90,
+    "visina": 180,
+    "godine": 33,
+    "kalorije": 1953,
+    "protein": 180,
+    "ugljikohidrati": 211,
+    "masti": 43
+  }
+]

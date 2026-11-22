@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96
+# Visual Studio Version 18
+VisualStudioVersion = 18.12.12412.261 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptiShape", "OptiShape.csproj", "{2A7FB23A-BD1D-4FE1-8CE8-410C1895264A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestAzra", "UnitTestAzra\UnitTestAzra.csproj", "{DF9E13A3-9D36-456F-8AF1-10507A40461B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2A7FB23A-BD1D-4FE1-8CE8-410C1895264A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A7FB23A-BD1D-4FE1-8CE8-410C1895264A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A7FB23A-BD1D-4FE1-8CE8-410C1895264A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF9E13A3-9D36-456F-8AF1-10507A40461B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF9E13A3-9D36-456F-8AF1-10507A40461B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF9E13A3-9D36-456F-8AF1-10507A40461B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF9E13A3-9D36-456F-8AF1-10507A40461B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
