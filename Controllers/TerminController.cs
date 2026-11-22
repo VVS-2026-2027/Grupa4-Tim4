@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using OptiShape.Data;
 using OptiShape.Models;
+using OptiShape.Services;
 
 namespace OptiShape.Controllers
 {
@@ -108,6 +109,19 @@ namespace OptiShape.Controllers
 
                 if (trener == null || korisnik == null || korisnik.IdTrenera != trener.IdKorisnika)
                     return Forbid();
+            }
+
+            if (termin.VrijemeOd != default)
+            {
+                var postojeciTermini = await _context.Termin
+                    .Where(t => t.Datum.Date == termin.Datum.Date)
+                    .ToListAsync();
+                postojeciTermini.ForEach(t => t.VrijemeOd = t.Datum.TimeOfDay);
+
+                if (!TerminAvailabilityService.CanSchedule(termin, postojeciTermini))
+                {
+                    ModelState.AddModelError("VrijemeOd", "Odabrani termin nije dostupan ili je izvan radnog vremena (08:00 - 22:00).");
+                }
             }
 
             // Kombinuj datum i vrijeme
