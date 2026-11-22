@@ -9,6 +9,11 @@
 
   <ItemGroup>
     <Compile Remove="Views\PlanIshraneITreninga\Index.cshtml.cs" />
+	  <Compile Remove="OptiShape.Tests**" />
+	  <Content Remove="OptiShape.Tests**" />
+	  <None Remove="OptiShape.Tests**" />
+	  <EmbeddedResource Remove="OptiShape.Tests**" />
+  
   </ItemGroup>
 
   <ItemGroup>
